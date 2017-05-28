@@ -11,10 +11,10 @@ The most basic example is non-redundant key splitting. With this key splitting s
 
 Example word list: rapid foam
 
-|  | List 1 | List 2 |
+|        | List 1 | List 2 |
 |--------|--------|--------|
-| Word 1 | rapid |  |
-| Word 2 |  | foam |
+| Word 1 | rapid  |        |
+| Word 2 |        | foam  |
 
 ### Three Lists, Need Two
 This redundant key splitting schema splits the mnemonic code into three lists where two of the lists are required to reconstruct the full list. This schema can be generalized for any word list with a length divisible by three, and will be the optimal.
@@ -30,11 +30,11 @@ Example word list: buffalo spoil fall
 
 Six word example: cake twice awesome please scheme you
 
-|        | List 1  | List 2  | List 3 |
-|--------|---------|---------|--------|
-| Word 1-2 | cake twice | cake twice |        |
-| Word 3-4 | awesome please   |         | awesome please  |
-| Word 4-5 |         | scheme you    | scheme you   |
+|          | List 1         | List 2     | List 3         |
+|----------|----------------|------------|----------------|
+| Word 1-2 | cake twice     | cake twice |                |
+| Word 3-4 | awesome please |            | awesome please |
+| Word 5-6 |                | scheme you | scheme you     |
 
 ### Four Lists, Need Three
 This schema splits the mnemonic code into four lists where three of the lists are required to reconstruct the full list. This schema can be generalized for any word list with a length divisible by six, and will be the optimal for that list.
