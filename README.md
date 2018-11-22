@@ -1,7 +1,7 @@
 # Optimal Key Splitting Schemas
 
 ### What is it?
-Mnemonic code key splitting is a secure method for splitting a mnemonic code across several word lists with redundancy in case one or more lists is compromised. Mnemonic codes are commonly used to recover wallets, so crucial to keep them secure and be able to reconstruct them in case the wallet needs to be recovered. 
+Mnemonic code key splitting is a secure method for splitting a mnemonic code across several word lists with redundancy in case one or more lists is compromised. Mnemonic codes are commonly used to recover cryptocurrency wallets.
 
 ### What is an optimal schema?
 The optimal key splitting schema for a pattern is the schema where each list contains the least number of words possible to fit the pattern. If you were splitting 12 words across two lists, having 11 words on each list isn't optimal. To score a schema, sum 2<sup>words on list</sup> for all lists. The optimal schema will have the lowest score.
@@ -17,7 +17,7 @@ Example word list: rapid foam
 | Word 2 |        | foam  |
 
 ### Three Lists, Need Two
-This redundant key splitting schema splits the mnemonic code into three lists where two of the lists are required to reconstruct the full list. This schema can be generalized for any word list with a length divisible by three, and will be the optimal.
+This redundant key splitting schema splits the mnemonic code into three lists where two of the lists are required to reconstruct the full list. This schema can be generalized for any word list with a length divisible by three, and will be optimal.
 
 Example word list: buffalo spoil fall
 
